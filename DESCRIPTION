@@ -1,0 +1,25 @@
+Package: ForecastingApp
+Title: PhillyRUG Demo Forecasting App
+Version: 0.0.0.9000
+Authors@R: person('PhillyRUG', '', email = 'corycutsail@gmail.com', role = c('cre', 'aut'))
+Description: A simple forecasting application used to demo the process of putting together a Shiny app.
+License: What license is it under?
+Imports: 
+    config (>= 0.3.1),
+    dplyr,
+    ggplot2,
+    golem (>= 0.3.4),
+    magrittr,
+    pkgload,
+    plotly,
+    shiny (>= 1.7.2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
+Depends: 
+    R (>= 2.10)
